@@ -1,0 +1,31 @@
+{
+  "name": "w-safe-pro",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.11",
+    "@react-native-community/geolocation": "^2.0.2",
+    "react": "18.2.0",
+    "react-native": "0.71.8",
+    "react-native-audio-recorder-player": "^3.5.7",
+    "react-native-bluetooth-serial-next": "^4.0.3",
+    "react-native-elements": "^3.4.2",
+    "react-native-sms-x": "^2.0.0",
+    "react-native-sensors": "^7.3.0",
+    "react-native-torch": "^2.1.1",
+    "react-native-voice": "^2.2.0",
+    "react-native-sms-x": "^2.0.0",
+    "react-native-sms-x-android": "^0.0.1" /* some installs use different names; use react-native-sms-x */,
+    "react-native-vector-icons": "^9.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/runtime": "^7.22.5",
+    "metro-react-native-babel-preset": "^0.76.8"
+  }
+}
